@@ -4,3 +4,18 @@
 --- DateTime: 2020/2/3 17:22
 ---
 
+local data = {1, 2, 3, 4, 5}
+
+local index = 1
+for i, v in ipairs(data) do
+    --if v > 2 then
+    --    index = index + 1
+    --    index = index - 1
+    --end
+
+    local var = data[i]
+    if var > 0 then
+        print(var)
+    end
+
+end
